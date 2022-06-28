@@ -1,0 +1,30 @@
+#+title: ASP.NET TODO APP
+
+* Table of Contents :toc:
+- [[#purpose][Purpose]]
+- [[#technology][Technology]]
+- [[#requirements][Requirements]]
+- [[#installation][Installation]]
+
+* Purpose
+This application is a basic "todo" app following the tutorial provided at
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio-code#tabpanel_6_visual-studio-code=.
+It is a Restful API, one can create, read, update and delete "todo" objects.
+This application uses a in-memory database, thus data does not persist upon
+restarting the application.
+
+* Technology
+This application was developed with the C# programming language using ASP.NET
+and .NET core. There are various helper packages installed with the
+package manager "NuGet" which aided in the development cycle and dotnet tools.
+
+* Requirements
+To run this application, one would need to install dotnet, dotnet-runtime,
+mono and asp.net-runtime. This was made and ran on Manjaro, an Arch based
+Linux distrubution however this may run elsewhere with the same or similiar
+requirements listed.
+
+* Installation
+Provided you have all the required dependencies, one would simply need to
+clone this repository to a folder of your choice, aim a terminal at it and
+type `dotnet run`.
